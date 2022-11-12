@@ -1,0 +1,61 @@
+<!--<c><a b><a>
+<style>
+a,body {
+	background: #1a4341
+}
+
+c,a {
+	position: fixed
+}
+
+a {
+	width: 255;
+	right: -26.3%;
+	height: 280;
+	top: 3.4%;
+	border-radius: 50%;
+}
+
+a[b] {
+	left: -26.3%
+}
+
+c {
+	width: 200;
+	height: 200;
+	inset: 20%;
+	background: linear-gradient(#f3ac3c 0, #f3ac3c 50%, #1a4341 50%, #1a4341 100%) top/1% 20%
+}
+-->
+
+<!-- my code but not 100% i dont know why-->
+<div></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  div:before{
+    content:"";
+    width: 200px;
+    height:20px;
+    background:#F3AC3C;
+    position:absolute;
+    left:100;
+    top:60;
+    box-shadow:0 40px #F3AC3C,
+               0 80px #F3AC3C,
+               0 120px #F3AC3C,
+               0 160px #F3AC3C;
+  }
+  div:after{
+    content:"";
+    width:300px;
+    height:300px;
+    background:#1A4341;
+    position:absolute;
+    border-radius:50%;
+    left:250;
+    top:0;
+    -webkit-box-reflect:left 100px;
+  }
+</style>
