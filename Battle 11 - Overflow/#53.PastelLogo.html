@@ -1,0 +1,36 @@
+<div a></div>
+<div b></div>
+<style>
+  body{
+    background:#19191A;
+  }
+  [a] {
+    width: 150px;
+    height: 150px;
+    border-radius:50%;
+    background: #4F77FF;
+    top:50;
+    left:125;
+    position:absolute;
+  }
+  [b]:before{
+    content:'';
+    width:75px;
+    height:75px;
+    border-radius:0 0 0 90px;
+    background:#9AD5FF;
+    top:125;
+    left:125;
+    position:absolute;
+  }
+  [b]:after{
+    content:'';
+    width: 75px;
+    height: 120px;
+    background:#F9E492;
+    top:130;
+    left:125;
+    position:absolute;
+    z-index:-1;
+  }
+</style>
