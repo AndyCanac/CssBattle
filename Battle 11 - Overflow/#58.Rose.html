@@ -1,0 +1,60 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<style>
+  body,*:before,*:after{
+    background:#191919;
+    content:"";
+    position:absolute;
+  }
+  [a]:before{
+    width: 20px;
+    height: 90px;
+    border-radius:20px;
+    top:157;
+    left:182;
+    background:#F9E492;
+  }
+  [a]:after{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    top:137;
+    left:172;
+    background:#F9E492;
+  }
+  [b]:before{
+    width: 100px;
+    height: 100px;
+    top:57;
+    left:142;
+    background:linear-gradient(#191919 60%, #4F77FF 60%);
+    border-radius:50%;
+  }
+  [b]:after{
+    width: 140px;
+    height: 30px;
+    border-radius:6px 6px 30px 30px;
+    top:77;
+    left:122;
+    background:#4F77FF;
+  }
+  [c]:before{
+    width: 100px;
+    height: 30px;
+    border-radius:6px 6px 30px 30px;
+    top:57;
+    left:142;
+    background:#4F77FF;
+    box-shadow: 0 0 0 10px #191919;
+  }
+  [c]:after{
+    width: 30px;
+    height: 30px;
+    border-radius:50%;
+    top:37;
+    left:177;
+    background:#4F77FF;
+    box-shadow: 0 0 0 10px #191919;
+  }
+</style>
