@@ -1,0 +1,81 @@
+<div a></div>
+<div b></div>
+<div c></div>
+<div d></div>
+<div e></div>
+<style>
+  body{
+    background:#1A4341;
+  }
+  [a]{
+    content:"";
+    width: 100px;
+    height: 140px;
+    border-radius:20px;
+    position:absolute;
+    top:110;
+    left:150;
+    background:linear-gradient(#F3AC3C 55px, #998235 55px);
+  }
+  [b]{
+    width: 50px;
+    height: 20px;
+    border-radius:10px 10px 0 0;
+    position:absolute;
+    top:90;
+    left:175;
+    background: #F3AC3C;
+  }
+  [c]{
+    width: 20px;
+    height: 50px;
+    position:absolute;
+    top:60;
+    left:190;
+    background:#F3AC3C;
+  }
+  [d]:before{
+    content:"";
+    width: 150px;
+    height: 20px;
+    position:absolute;
+    border-radius:10px;
+    top:50;
+    left:150;
+    background:#F3AC3C;
+  }
+  [d]:after{
+    content:"";
+    width: 20px;
+    height: 40px;
+    position:absolute;
+    border-radius:10px;
+    top:50;
+    left:280;
+    background:#F3AC3C;
+  }
+  [e]:before{
+    content:"";
+    width: 20px;
+    height: 20px;
+    position:absolute;
+    border-radius:10px;
+    top:100;
+    -webkit-box-reflect:below 10px;
+    left:280;
+    background:#998235;
+  }
+  [e]:after{
+    content:"";
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    border-radius:50%;
+    top:140;
+    left:150;
+    box-shadow:50px 0 #F3AC3C;
+    background:#998235;
+  }
+</style>
+
+<!--Not 100% too but i dont know why-->
