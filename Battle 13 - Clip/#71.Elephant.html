@@ -1,0 +1,126 @@
+<div a>
+    <div b></div>
+  </div>
+  
+  <div c>
+    <div d></div>
+  </div>
+  <div e></div>
+  <div f></div>
+  <div h></div>
+  <div g></div>
+  <style>
+    body{
+      background:#998235
+    }
+    [a]{
+      width: 80px;
+      height: 180px;
+      border-radius:50%;
+      background:#1A4341;
+      top:60;
+      left:50;  
+      position:absolute;
+      overflow:hidden;
+    }
+    [b]{
+      width: 80px;
+      height: 180px;
+      border-radius:50%;
+      background:#0B2429;
+      top:0;
+      left:16;  
+      position:absolute; 
+    }
+    [c]{
+      width: 80px;
+      height: 180px;
+      border-radius:50%;
+      background:#1A4341;
+      top:60;
+      left:270;  
+      position:absolute;
+      overflow:hidden;
+    }
+    [d]{
+      width: 80px;
+      height: 180px;
+      border-radius:50%;
+      background:#0B2429;
+      top:0;
+      left:-16;  
+      position:absolute; 
+    }
+    [e]{
+      width: 180px;
+      height: 180px;
+      border-radius:50%;
+      background:#1A4341;
+      top:60 ;
+      left:110;  
+      position:absolute;  
+    }
+    [f]:before{
+      content:"";
+      width: 80px;
+      height: 80px;
+      border-color:#FFFFFF transparent transparent #FFFFFF;
+      border-radius:50%;
+      top:190;
+      left:140;
+      border-style:solid;
+      border-width:20px;
+      transform:rotate(45deg);
+      position:absolute;
+    }
+    [f]:after{
+      content:"";
+      width: 40px;
+      height: 150px;
+      border-radius:50px;
+      background:#0B2429;
+      top:180;
+      left:180;  
+      position:absolute;
+    }
+    [g]:before{
+      content:"";
+      border-radius:50px;
+      border:10px solid #0B2429;
+      border-color:#0B2429 transparent transparent #0B2429;
+      top:140;
+      left:160;
+      transform:rotate(-135deg);
+      position:absolute;
+    }
+    [g]:after{
+      content:"";
+      border-radius:50px;
+      border:10px solid #0B2429;
+      border-color:#0B2429 transparent transparent #0B2429;
+      top:140;
+      left:220;
+      transform:rotate(-135deg);
+      position:absolute;
+    }
+    [h]:before{
+      content:"";
+      border-radius:50px;
+      border:20px solid #998235;
+      border-color:#998235 transparent transparent #998235;
+      top:130;
+      left:150;
+      transform:rotate(-135deg);
+      position:absolute;
+    }
+    [h]:after{
+      content:"";
+      border-radius:50px;
+      border:20px solid #998235;
+      border-color:#998235 transparent transparent #998235;
+      top:130;
+      left:210;
+      transform:rotate(-135deg);
+      position:absolute;
+    }
+  </style>
