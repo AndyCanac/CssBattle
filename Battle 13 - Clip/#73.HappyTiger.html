@@ -1,0 +1,95 @@
+<div a>
+    <div b></div>
+  </div>
+  <div c></div>
+  <div d></div>
+  <div e></div>
+  <body bgcolor=#F3AC3C>
+  <style>
+    [a]{
+      width:150;
+      height:150;
+      background:#998235;
+      position:absolute;
+      border-radius:75px 75px 60px 60px;
+      top:75;
+      left:125; 
+      overflow:hidden;
+    }
+    [b]{
+      width:40;
+      height:40;
+      background:#1A4341;
+      position:absolute;
+      transform:rotate(45deg);
+      top:-23;
+      left:55; 
+    }
+    [c]:before{
+      content:"";
+      width:20;
+      height:20;
+      background:#1A4341;
+      position:absolute;
+      border-radius:50%;
+      top:135;
+      left:150;
+      -webkit-box-reflect:right 60px;
+    }
+    [c]:after{
+      content:"";
+      width:40;
+      height:40;
+      background:#1A4341;
+      border:10px solid #998235;
+      position:absolute;
+      border-radius:50%;
+      top:65;
+      left:115;
+      -webkit-box-reflect:right 50px;
+      z-index:-1;
+    }
+    [d]:before{
+      content:"";
+      width:100;
+      height:40;
+      background:#FFF;
+      position:absolute;
+      border-radius:40px 40px 100px 100px;
+      top:170;
+      left:150;
+    }
+    [d]:after{
+      content:"";
+      width:20;
+      height:20;
+      border:10px solid #FFF;
+      border-color:transparent transparent #1A4341 #1A4341;
+      border-radius:50%;
+      top:160;
+      left:165;
+      transform:rotate(-45deg);
+      position:absolute;
+    }
+    [e]:before{
+      content:"";
+      width:20;
+      height:20;
+      border:10px solid #FFF;
+      border-color:transparent transparent #1A4341 #1A4341;
+      border-radius:50%;
+      top:160;
+      left:195;
+      transform:rotate(-45deg);
+      position:absolute;
+    }
+    [e]:after{
+      content:"";
+      width:10;
+      height:20;
+      background:#1A4341;
+      top:160;
+      left:195;
+      position:absolute;
+    }
+  </style>
